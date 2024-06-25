@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.listaCliente{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cliente{
+  border: 1px solid blue;
+  width: 30%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 80vh;
+  h2{
+    color: blue;
+    text-align: center;
+  }
+}
+
+.menu{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 32px;
+  .tarjeta{
+    border: 1px solid blue;
+    box-shadow: 10px 10px 4px blue;
+    padding: 40px;
+    width: 220px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    aspect-ratio: 1;
+    cursor: pointer;
+  }
+}
+.cliente-total{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
